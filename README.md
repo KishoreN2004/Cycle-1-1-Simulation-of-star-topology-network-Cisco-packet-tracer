@@ -35,12 +35,12 @@ To simulate a network with topology using Cisco Packet Tracer and verify connect
 
 | SENDER/RECEIVER | PC0 | PC1 | PC2 | PC3 | PC4 | PC5 |
 |------------------|-----|-----|-----|-----|-----|-----|
-| PC0              |     |     |     |     |     |     |
-| PC1              |     |     |     |     |     |     |
-| PC2              |     |     |     |     |     |     |
-| PC3              |     |     |     |     |     |     |
-| PC4              |     |     |     |     |     |     |
-| PC5              |     |     |     |     |     |     |
+| PC0              |  ---   |  Success   |  Success   |   Success  |    Success |   Success  |
+| PC1              |     |    --- |     |     |     |     |
+| PC2              |     |     |  ---   |    |     |     |
+| PC3              |     |     |     |   ---  |    |     |
+| PC4              |     |     |     |     |  ---   |     |
+| PC5              |     |     |     |     |     |  ---   |
 
 ## 🗺️ NETWORK DIAGRAM
 ---
