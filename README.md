@@ -36,15 +36,15 @@ To simulate a network with topology using Cisco Packet Tracer and verify connect
 | SENDER/RECEIVER | PC0 | PC1 | PC2 | PC3 | PC4 | PC5 |
 |------------------|-----|-----|-----|-----|-----|-----|
 | PC0              |  ---   |  Success   |  Success   |   Success  |    Success |   Success  |
-| PC1              |     |    --- |     |     |     |     |
-| PC2              |     |     |  ---   |    |     |     |
-| PC3              |     |     |     |   ---  |    |     |
-| PC4              |     |     |     |     |  ---   |     |
-| PC5              |     |     |     |     |     |  ---   |
+| PC1              |   Success  |    --- |   Success  |  Success   |  Success   |   Success  |
+| PC2              | Success    |  Success   |  ---   |   Success |  Success   |     Success |
+| PC3              | Success    |  Success   |    Success |   ---   | Success   |  Success   |
+| PC4              |  Success   | Success    |  Success   |  Success   |  ---   |   Success  |
+| PC5              |   Success  |    Success |  Success   |   Success  |   Success  |  ---   |
 
 ## 🗺️ NETWORK DIAGRAM
 ---
-<img width="1024" height="326" alt="image" src="https://github.com/user-attachments/assets/b1678fb3-30c2-4351-9b61-ee7b524be458" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-10 110519" src="https://github.com/user-attachments/assets/ede55c6f-3f6d-4238-941b-fbb9f3f4bb73" />
 
 
 ## 🧾 BASIC NETWORKING COMMANDS
@@ -73,7 +73,8 @@ C:\> ipconfig /all
 
 ## OUTPUT
 ---
-<img width="1088" height="796" alt="image" src="https://github.com/user-attachments/assets/39cc071d-feae-4f5e-b8a6-f2b7a155daf0" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-10 110457" src="https://github.com/user-attachments/assets/382a226d-7827-4b55-a381-6309fa2c1d26" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-10 110507" src="https://github.com/user-attachments/assets/098c962a-0c5b-4773-a230-b03c0ab435fc" />
 
 ## RESULT
 Thus the computers in same network are able to communicate with each other and the communication between them were verified
